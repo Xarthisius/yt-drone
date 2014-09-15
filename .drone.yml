@@ -1,0 +1,5 @@
+image: ytproject/yt-stable:latest
+env:
+  - GOPATH=/var/cache/drone
+script:
+  - nosetests
